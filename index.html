@@ -10,7 +10,7 @@
   
   <script>
 
-    let nums = [1,2,3,4,5]
+    // let nums = [1,2,3,4,5]
     // console.log(nums)
     // console.log(nums[2])
     // console.log(nums.length)
@@ -19,7 +19,54 @@
     // random.push(`something`)
     // console.log(random[Math.floor(Math.random()*random.length)])
 
+    // let names = ['John Doe', 'Jane Doe', 'Jack Doe', 'Jimmy Doe']
 
+    // for (let i = 0; i < names.length; i++) {
+    //   console.log(names[i])
+    // }
+
+    // let user = {
+    //   name: 'John Doe',
+    //   age: 47,
+    //   email: 'johndoe@gmail.com',
+    //   phone: 9495551234
+    // }
+
+    // console.log(user.phone)
+
+
+  let thing = {
+    person: {
+      name: 'John Doe',
+      age: 47,
+      children: [
+        {
+          name: 'James Doe',
+          age: 18
+        },
+        {
+          name: 'Jane Doe',
+          age: 19,
+          pets: [
+            {
+              name: 'Fluffy',
+              breed: 'domestic shorthair',
+              age: 4,
+            },
+            {
+              name: 'Sam',
+              breed: 'MinPin',
+              age: 8
+            }
+          ]
+        }
+      ]
+    }
+  }
+ 
+  console.log(thing.person.name)
+  console.log(thing.person.children[0].age)
+  console.log(thing.person.children[1].pets[1].breed)
   </script>
 </body>
 
